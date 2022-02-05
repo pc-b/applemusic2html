@@ -2,6 +2,7 @@ import requests
 from bs4 import BeautifulSoup
 from youtubesearchpython import VideosSearch
 
+
 #get page and parse (set your own playlist url)
 URL = "_your_apple_music_playlist_url_here"
 page = requests.get(URL)
@@ -29,7 +30,7 @@ while num < len(songs):
     #get link of video
     link = result["result"][0]["link"]
 
-    #format string for html output
+    #format string for html output (my formatting change as you like)
     printed = '<a href="' + link + 'style="text-decoration: none;">>' + title.text.lower() + "</a><br>"
 
     #write to file
