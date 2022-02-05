@@ -31,7 +31,7 @@ while num < len(songs):
     link = result["result"][0]["link"]
 
     #format string for html output (my formatting change as you like)
-    printed = '<a href="' + link + 'style="text-decoration: none;">>' + title.text.lower() + "</a><br>"
+    printed = '<a href="' + link + '"style="text-decoration: none;">>' + title.text.lower() + "</a><br>"
 
     #write to file
     f.write(printed)
