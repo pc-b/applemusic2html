@@ -1,5 +1,5 @@
 # AppleMusic2HTML
-A simple python tool I made to convert songs from my apple music playlist. I'm not too experienced with python, or whatever the hell I just made, so the max is 100 songs. Not sure how I could get the page to load the rest of the songs as they load as you scroll to the bottom.
+A simple python tool I made to convert songs from my apple music playlist into html youtube links. I'm not too experienced with python, or whatever the hell I just made, so the max is 100 songs. Not sure how I could get the page to load the rest of the songs as they load as you scroll to the bottom.
 
 # Dependencies 
 ```
